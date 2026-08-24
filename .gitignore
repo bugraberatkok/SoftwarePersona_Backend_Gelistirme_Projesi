@@ -1,0 +1,56 @@
+# Dependencies
+node_modules/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime / cache
+.cache/
+.tmp/
+tmp/
+*.tmp
+*.temp
+
+# Build outputs
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Test / coverage
+coverage/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Docker / local volumes
+*.pid
+*.seed
+*.pid.lock
+
+# Agent / AI IDE specific folders
+.agents/
+.claude/
+.windsurf/
+
+# Optional local collections / exports
+taskcraft_collection.json
